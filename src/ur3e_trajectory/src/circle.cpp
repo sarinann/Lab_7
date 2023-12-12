@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv)
 {
-     // Setup ROS node
+     // Setup ROS nod
     ros::init(argc, argv, "circle");
     ros::AsyncSpinner spinner(4);
     spinner.start();
